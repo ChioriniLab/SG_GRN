@@ -1,0 +1,15 @@
+LINE 77  : 2017-09-11 21:53:42,924 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 87  : 2017-09-11 21:53:42,924 [INFO    ] Analysis name: pathway, Enrichr Library: KEGG_2016
+LINE 207 : 2017-09-11 21:53:42,926 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 395 : 2017-09-11 21:54:00,019 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 46
+LINE 104 : 2017-09-11 21:54:01,023 [DEBUG   ] Job ID:{'shortId': '2od1l', 'userListId': 5350847}
+LINE 207 : 2017-09-11 21:54:01,025 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 395 : 2017-09-11 21:54:02,534 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/view?userListId=5350847 HTTP/1.1" 200 None
+LINE 112 : 2017-09-11 21:54:02,583 [INFO    ] Submitted gene list:{'shortId': '2od1l', 'userListId': 5350847}
+LINE 207 : 2017-09-11 21:54:02,585 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 395 : 2017-09-11 21:54:13,861 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/enrich?userListId=5350847&backgroundType=KEGG_2016 HTTP/1.1" 200 None
+LINE 122 : 2017-09-11 21:54:13,933 [DEBUG   ] Get enrichment results: Job Id:{'shortId': '2od1l', 'userListId': 5350847}
+LINE 207 : 2017-09-11 21:54:13,935 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 395 : 2017-09-11 21:54:15,196 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=5350847&filename=KEGG_2016.pathway.enrichr.reports&backgroundType=KEGG_2016 HTTP/1.1" 200 None
+LINE 137 : 2017-09-11 21:54:15,197 [INFO    ] Downloading file of enrichment results: Job Id:{'shortId': '2od1l', 'userListId': 5350847}
+LINE 145 : 2017-09-11 21:54:15,276 [DEBUG   ] Results written to: mus_submandibular_GO_enrichment_pathway_KEGG_2016_ENSMUSG00000042596_Tfap2d/KEGG_2016.pathway.enrichr.reports.txt
